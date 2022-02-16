@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     Button permission;
+    //for multiple permission
     String permissionArray[]={"android.permission.READ_EXTERNAL_STORAGE","android.permission.CALL_PHONE"};
     int code = 1;
 
